@@ -1,0 +1,11 @@
+@import 'base/base';
+@import 'base/mixins';
+@import 'base/variabels';
+@import 'base/fonts';
+
+body {
+	font-family: Balsamiq, cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+}
