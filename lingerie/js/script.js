@@ -16,5 +16,5 @@ document.querySelector('body').classList.add('no-webp');
 }
 });
 
-alert("Hello!");
+console.log("Hello!");
 
