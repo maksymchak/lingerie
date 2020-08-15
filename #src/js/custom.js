@@ -1,3 +1,4 @@
+console.log("Hello!");
 /* JS Document */
 
 /******************************
@@ -14,7 +15,6 @@
 
 
 ******************************/
-console.log("step1");
 
 $(document).ready(function () {
   "use strict";

@@ -15,7 +15,7 @@ const path = {
   },
   src: {
     html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
-    css: source_folder + "/scss/style.scss",
+    css: [source_folder + "/scss/*.scss", source_folder + "/scss/*.css"],
     js: source_folder + "/js/script.js",
     img: source_folder + "/img/**",
     fonts: source_folder + "/fonts/**/*.*",
@@ -83,7 +83,12 @@ function css() {
         cascade: true,
       })
     )
-    .pipe(webpcss())
+    .pipe(
+      webpcss({
+        webpClass: ".webp",
+        noWebpClass: ".no-webp",
+      })
+    )
     .pipe(dest(path.build.css))
     .pipe(clean_css())
     .pipe(
