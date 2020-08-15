@@ -5,8 +5,6 @@
    License: none (public domain)
 */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-
 html,
 body,
 div,
@@ -3531,22 +3529,6 @@ textarea {
   clip: auto;
 }
 
-@font-face {
-  font-family: "Balsamiq";
-  font-display: swap;
-  src: url("../fonts/BalsamiqSans-Regular.woff") format("woff"), url("../fonts/BalsamiqSans-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Russo";
-  font-display: swap;
-  src: url("../fonts/RussoOne-Regular.woff") format("woff"), url("../fonts/RussoOne-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* CSS Document */
 
 /******************************
@@ -3573,27 +3555,6 @@ textarea {
 12. Footer
 
 
-******************************/
-
-/***********
-1. Fonts
-***********/
-
-@font-face {
-  font-family: "Lucida";
-  src: url("../fonts/lucida_bright_regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Lucida";
-  src: url("../fonts/lucida_bright_demi.ttf") format("truetype");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Beyond";
-  src: url("../fonts/beyond_the_mountains.otf") format("opentype"), url("../fonts/beyond_the_mountains.ttf") format("truetype");
-}
 
 /*********************************
 2. Body and some general stuff
@@ -5098,13 +5059,6 @@ section {
 /************
 14. 400px
 ************/
-
-body {
-  font-family: Balsamiq, cursive;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 25px;
-}
 
 @media only screen and (max-width: 1800px) {
   .search {
