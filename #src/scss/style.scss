@@ -1,11 +1,5 @@
-@import 'base/base';
-@import 'base/mixins';
-@import 'base/variabels';
-@import 'base/fonts';
-
-body {
-	font-family: Balsamiq, cursive;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 25px;
-}
+@import "base/base";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "Plugins/font-awesome-4.7.0/scss/font-awesome";
+@import "base/main";
+@import "base/responsive";

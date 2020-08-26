@@ -29,5 +29,8 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-pngquant": "^1.0.13",
     "imagemin-mozjpeg": "^9.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
   }
 }
