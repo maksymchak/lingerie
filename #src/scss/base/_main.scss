@@ -668,9 +668,15 @@ section {
 .menu_close:hover div {
   background: #937c6f;
 }
-.menu .logo {
-  margin-bottom: 60px;
+.menu .logo-menu {
+  margin-bottom: 10px;
 }
+
+.menu .logo-menu img {
+  width: 97px;
+  height: auto;
+}
+
 .menu_nav ul li {
   margin-bottom: 11px;
 }
