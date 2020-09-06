@@ -712,6 +712,7 @@ section {
 }
 .promo_image img {
   max-width: 100%;
+  min-height: 270px;
 }
 .promo_link {
   width: 100%;
@@ -1278,7 +1279,7 @@ section {
 }
 .footer_logo a {
   font-family: "Lucida", serif;
-  font-size: 30px;
+  font-size: 45px;
   color: #232323;
 }
 .footer_nav {
@@ -1292,6 +1293,8 @@ section {
   margin-right: 0;
 }
 .footer_nav ul li a {
+  line-height: 2rem;
+
   font-size: 12px;
   text-transform: uppercase;
   color: #232323;
