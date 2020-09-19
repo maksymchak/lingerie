@@ -876,6 +876,10 @@ section {
 .product_info {
   float: left;
 }
+
+.product_name {
+  margin-top: 14px;
+}
 .product_name a {
   font-size: 16px;
   font-weight: 600;
@@ -890,7 +894,7 @@ section {
   color: #937c6f;
 }
 .product_price {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   color: #8a8a8a;
   margin-top: 0px;

@@ -61,8 +61,12 @@
 .owl-carousel .owl-item img {
   display: block;
   width: 100%;
+}
+
+.owl-carousel .owl-item .owl-item-gallery img {
   height: 210px;
 }
+
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
   display: none;
